@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Portfolio Ilyesse </title>
+    <link rel="stylesheet" href="images/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+</head>
+
+<body>
+    <!-- Navbar  Section Start -->
+    <header>
+        <a href="#" class="logo">EL ADAOUI<span> ILYESSE</span></a>
+
+        <div class="bx bx-menu" id="menu-icon"></div>
+
+        <ul class="navbar">
+            <li><a href="#home">Accueil</a></li>
+            <li><a href="#about">À propos de moi</a></li>
+            <li class="dropdown">
+                <a href="pages/bts-sio.html">BTS SIO</a>
+                <div class="dropdown-content">
+                    <a href="pages/cours.html" class="dropbtn">Cours</a>
+                </div>
+            </li>
+            <li><a href="pages/projets.html">Projets</a></li>
+            <li><a href="pages/veille.html">Veilles</a></li>
+            <li><a href="pages/experiences.html">Expériences</a></li>
+            <!-- <li><a href="logout.html">Déconnexion</a></li> -->
+            <div class="bx bx-lune" id="darkmode"></div>
+        </ul>
+
+    </header>
+    <!-- Navbar Section End -->
+    <!-- Home Section Start -->
+    <section class="home" id="home">
+        <div class="social">
+            <a href="https://github.com/"><i class='bx bxl-github'></i></a>
+            <a href="https://www.instagram.com/"><i class='bx bxl-instagram'></i></a>
+            <a href="https://fr-fr.facebook.com/"><i class='bx bxl-facebook'></i></a>
+        </div>
+        <div class="home-img">
+            <img src="images/Personnage.jpg" alt="">
+        </div>
+        <div class="home-text">
+            <span>Bonjour, Je suis</span>
+            <h1>Ilyesse</h1>
+            <h1> EL ADAOUI </h1>
+            <h2>Developpeur WEB</h2>
+            <p>Bonjour à tous. Je vous souhaite la bienvenue!
+                <br> </p>
+            <a href="docs/Ilyesse-ElAdaoui.pdf" target="_blank" class="btn">Télécharger le CV</a>
+        </div>
+    </section>
+    <!-- Home Section End -->
+    <!-- About Section Start -->
+
+    <section class="about" id="about">
+        <div class="heading">
+            <h2 style="color: blue;">À propos de moi</h2>
+            <span style="color: gray;">Introduction</span>
+        </div>
+
+        <div class="about-container">
+            <div class="about-img">
+                <img src="images/Personnage.jpg" alt="">
+            </div>
+            <div class="about-text">
+                <p>Bonjour, je m'appelle <span style="color: green;">Ilyesse El Adaoui</span> et je suis <span style="color: green;">développeur Web junior</span>. J'aime travailler avec les dernières technologies pour créer des sites web incroyables et
+                    intuitifs. Si vous avez besoin de mes services, n'hésitez pas à me contacter à l'adresse e-mail suivante : <span style="color: green;">ilyesseeladaoui2@gmail.com</span> ou par téléphone au <span style="color: green;">07.83.85.03.31</span>.</p>
+                <p>En dehors de cela, je suis également passionné par les nouvelles technologies et les gadgets. Je pense que ces produits sont souvent pratiques, amusants et divertissants. Des jeux pour s'évader, une montre connectée pour être toujours
+                    à la page, une tablette pour être sans connecté au Web, j'en passe tant j'adore ces nouvelles technologies qui me permettent de vivre autrement mais surtout mieux.</p>
+            </div>
+        </div>
+
+        <style>
+            .heading {
+                text-align: center;
+                margin-top: 50px;
+                margin-bottom: 30px;
+              }
+            
+              .about-container {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                margin-bottom: 50px;
+              }
+            
+              .about-img {
+                width: 20%;
+              }
+            
+              .about-text {
+                width: 60%;
+              }
+            
+              .information {
+                display: flex;
+                flex-wrap: wrap;
+                margin-top: 30px;
+              }
+            
+              .info-box {
+                width: 50%;
+                padding: 10px;
+                box-sizing: border-box;
+              }
+        </style>
+
+
+        <style>
+            .about-container {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+              }
+            
+              .about-img {
+                margin-right: 30px;
+              }
+            
+              .about-text {
+                text-align: justify;
+              }
+            
+            
+              /* Style du bouton de dropdown */
+            .dropbtn {
+              color: white;
+              padding: 16px;
+              font-size: 16px;
+              border: none;
+              cursor: pointer;
+              background-color: inherit;
+            }
+            
+            /* Style du contenu du dropdown */
+            .dropdown-content {
+              display: none;
+              position: absolute;
+              background-color: beige;
+              min-width: 160px;
+              z-index: 1;
+            }
+            
+            /* Style des liens dans le dropdown */
+            .dropdown-content a {
+              color: black;
+              padding: 12px 16px;
+              text-decoration: none;
+              display: block;
+            }
+            
+            /* Style des liens au survol de la souris */
+            .dropdown-content a:hover {
+              background-color: #f1f1f1;
+            }
+            
+            /* Affichage du contenu du dropdown lorsque le bouton est survolé */
+            .dropdown:hover .dropdown-content {
+              display: block;
+            }
+            
+            /* Style du dropdown ouvert */
+            .dropdown:hover .dropbtn {
+              background-color: #3e8e41;
+            }
+        </style>
+
+
+
+    </section>
+    <style>
+        .bts-container {
+            max-width: 960px;
+            margin: 0 auto;
+          }
+          
+          .bts-heading {
+            text-align: center;
+            margin-bottom: 50px;
+          }
+          
+          .bts-heading h2 {
+            font-size: 36px;
+            color: #4d4d4d;
+          }
+          
+          .bts-options {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+          }
+          
+          .bts-option {
+            width: 45%;
+            background-color: #fff;
+            border-radius: 5px;
+            padding: 9px;
+            margin-bottom: 30px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+          }
+          
+          .bts-option h3 {
+            font-size: 24px;
+            color: #4d4d4d;
+            margin-bottom: 20px;
+          }
+          
+          .bts-option.slam {
+            background-color: #e6f7ff;
+            border: 1px solid #b3e6ff;
+          }
+          
+          .bts-option.sisr {
+            background-color: #fff2e6;
+            border: 1px solid #ffd9b3;
+          }
+          
+          .bts-option p {
+            font-size: 18px;
+            color: #666;
+            line-height: 1.5;
+            margin-bottom: 0;
+          }
+    </style>
+
+    </head>
+
+    <!-- About Section End -->
+
+    <!-- Skills Section Start -->
+
+    <section class="#" id="#">
+        <div class="heading">
+            <h2>Compétences</h2>
+            <span>Mes Compétences</span>
+        </div>
+
+        <div class="skills-container">
+            <div class="bars">
+
+                <div class="bars-box">
+                    <h3>HTML</h3>
+                    <span>90%</span>
+                    <div class="light-bar"></div>
+                    <div class="percent-bar html-bar"></div>
+                </div>
+
+                <div class="bars-box">
+                    <h3>CSS</h3>
+                    <span>75%</span>
+                    <div class="light-bar"></div>
+                    <div class="percent-bar css-bar"></div>
+                </div>
+
+                <div class="bars-box">
+                    <h3>JavaScript</h3>
+                    <span>45%</span>
+                    <div class="light-bar"></div>
+                    <div class="percent-bar js-bar"></div>
+                </div>
+
+                <div class="bars-box">
+                    <h3>MySQL</h3>
+                    <span>50%</span>
+                    <div class="light-bar"></div>
+                    <div class="percent-bar html-bar"></div>
+                </div>
+                <div class="bars-box">
+                    <h3>Linux</h3>
+                    <span>60%</span>
+                    <div class="light-bar"></div>
+                    <div class="percent-bar html-bar"></div>
+                </div>
+
+
+
+                <div class="bars-box">
+                    <h3>PHP</h3>
+                    <span>50%</span>
+                    <div class="light-bar"></div>
+                    <div class="percent-bar react-bar"></div>
+                </div>
+                <div class="bars-box">
+                    <h3>Python</h3>
+                    <span>53%</span>
+                    <div class="light-bar"></div>
+                    <div class="percent-bar react-bar"></div>
+                </div>
+            </div>
+            <div class="skills-img">
+                <img src="images/Personnage.jpg" alt="Skill">
+            </div>
+        </div>
+    </section>
+    <!-- Skills Section End -->
+    <!-- Services Section Start -->
+    <section class="services" id="services">
+        <div class="heading">
+            <h2>Autres</h2>
+            <span>Autres Services</span>
+        </div>
+        <div class="services-content">
+
+            <div class="services-box">
+                <i class='bx bx-code-alt'></i>
+                <h3>Development Web</h3>
+                <a href="pages/projets.html">En savoir plus</a>
+            </div>
+
+            <div class="services-box">
+                <i class='bx bx-server'></i>
+                <h3>Development Backend </h3>
+                <a href="pages/projets.html">En savoir plus</a>
+            </div>
+
+
+            <div class="services-box">
+                <i class='bx bxl-android'></i>
+                <h3>Development d'application</h3>
+                <a href="pages/projets.html">En savoir plus</a>
+            </div>
+        </div>
+    </section>
+    <!-- Services Section End -->
+
+    <!-- Contact Section Start -->
+    <section class="contact" id="contact">
+    <div class="heading">
+        <h2>Contact</h2>
+        <span>Me contacter</span>
+    </div>
+    <div class="contact-form">
+        <form action="mailto:ilyesseeladaoui2@gmail.com" method="post" enctype="text/plain">
+            <input type="text" name="nom" placeholder="Ton Nom">
+            <input type="email" name="email" placeholder="Ton Email">
+            <textarea name="message" cols="30" rows="10" placeholder="Ton message..."></textarea>
+            <input type="submit" value="Envoyer" class="contact-button">
+        </form>
+    </div>
+</section>
+
+
+    <!-- Contact Section End -->
+    <div class="footer">
+        <h2> Me Follow</h2>
+        <div class="footer-social">
+            <a href="https://fr-fr.facebook.com/"><i class='bx bxl-facebook'></i></a>
+            <a href="https://twitter.com/login"><i class='bx bxl-twitter'></i></a>
+            <a href="https://www.instagram.com/"><i class='bx bxl-instagram'></i></a>
+            <a href="https://www.youtube.com/"><i class='bx bxl-youtube'></i></a>
+        </div>
+
+    </div>
+
+    <div class="copyright">
+        © 2024.Ilyesse El adaoui| Droits d'auteur.</p>
+    </div>
+    <!-- Javascript -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>
